@@ -1,4 +1,4 @@
-# Hello World
+# Web Tools
 > A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
 
 ## View slides locally
@@ -13,5 +13,13 @@ Then, install dependencies and run the preview server:
 
 ```bash
 $ npm install && bower install
+```
+Run local server
+```bash
 $ gulp serve
+```
+
+Deploy to GitHub Pages
+```bash
+$ gulp deploy
 ```
